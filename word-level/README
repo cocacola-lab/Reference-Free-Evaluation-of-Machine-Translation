@@ -1,10 +1,2 @@
-We use partial of the public released code Awesome-Align for XLM-R version. (https://github.com/neulab/awesome-align/tree/xlmr)
+Word-level code uses the framework of [awesome-align](https://github.com/neulab/awesome-align/tree/xlmr) for XLM-R version. 
 The copyright statements and comments of the original code are preserved.
-We mainly modify the file "modeling_roberta.py" and "modeling.py" to implement self-guided contrastive learning word-alignment method. We modify "BertGuideHead" class and add "BertContrastiveHead" class in "modeling.py".
-
-Requirements:
-python == 3.7.10
-pytorch == 1.6.0
-transformer == 4.11.3
-numpy == 1.21.0
-tqdm == 4.62.3
